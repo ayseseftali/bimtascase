@@ -1,0 +1,16 @@
+<h2 mat-dialog-title>Otopark Detay Bilgileri</h2>
+<mat-dialog-content class="mat-typography">
+ <label>Park Adı: {{detailData.parkName}}</label><br>
+ <label>Kapasite: {{detailData.capacity}}</label><br>
+ <label>Park Tipi: {{detailData.parkType}}</label><br>
+ <label>Boş Kapasite: {{detailData.emptyCapacity}}</label><br>
+ <label>Çalışma Saati: {{detailData.workHours}}</label><br>
+ <label>Tariff: {{detailData.tariff}}</label><br>
+ <label>FreeTime: {{detailData.freeTime}}</label><br>
+ <label>Adres: {{detailData.address}}</label><br>
+ <label>İlçe: {{detailData.district}}</label><br>
+ <label>Park Id: {{detailData.parkID}}</label>
+</mat-dialog-content>
+<mat-dialog-actions align="end">
+  <button mat-button mat-dialog-close>Cancel</button>
+</mat-dialog-actions>
